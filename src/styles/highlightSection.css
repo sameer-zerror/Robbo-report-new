@@ -1,0 +1,138 @@
+.flexbox_wrapper {
+  grid-column-gap: 6em;
+  grid-row-gap: 6em;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+.flexbox_wrapper.special_layout {
+  grid-column-gap: 0em;
+  grid-row-gap: 0em;
+}
+.l_side_tall {
+  width: 44%;
+  margin-right: auto;
+  padding-right: 3.9em;
+  position: sticky;
+  top: 6em;
+}
+.headline_blog_home {
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+  flex-flow: column;
+  margin-bottom: 24px;
+  display: flex;
+}
+.article_headline {
+  width: auto;
+  font-size: 2.5em;
+  line-height: 1.1;
+  font-family: rocky, sans-serif;
+  font-weight: 600;
+}
+.b_txt {
+  letter-spacing: 0.02em;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-family: sweet-sans-pro, sans-serif;
+}
+.img_blog.r_side {
+  width: 55.8%;
+  /* height: 52em; */
+  margin-left: auto;
+  overflow: hidden;
+}
+.highlightimage {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .l_side_tall {
+    width: 50%;
+  }
+  .b_txt {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 991px) {
+  .l_side_tall {
+    width: 50%;
+    padding-right: 4em;
+  }
+  .article_headline {
+    font-size: 4em;
+  }
+  .b_txt {
+    letter-spacing: 0.03em;
+    font-size: 1.6em;
+  }
+  .button_base {
+    padding-top: 20px;
+    padding-bottom: 18px;
+    font-size: 1.6em;
+  }
+  .img_blog.r_side {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .flexbox_wrapper.special_layout {
+    flex-flow: column;
+  }
+  .l_side_tall {
+    width: 100%;
+    position: static;
+  }
+  .article_headline {
+    font-size: 6em;
+  }
+  .b_txt,
+  .b_txt.white {
+    /* font-size: 2.15em; */
+    font-size: var(--desktop-paragraph-font--small-p);
+  }
+  .button_base.black {
+    font-size: 2.35em;
+  }
+  .img_blog.r_side {
+    width: 100%;
+    /* height: 92em; */
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .flexbox_wrapper.special_layout,
+  .flexbox_wrapper.partnerships,
+  .flexbox_wrapper.spec_part {
+    flex-flow: column;
+  }
+  .l_side_tall {
+    width: 100%;
+    padding-right: 0;
+    position: static;
+  }
+  .headline_blog_home {
+    margin-bottom: 16px;
+  }
+  .article_headline {
+    font-size: 11.1em;
+  }
+  .b_txt {
+    font-size: 4.5em;
+    font-size: var(--desktop-paragraph-font--small-p);
+  }
+  .button_base.black {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 4.15em;
+    display: flex;
+  }
+  .img_blog.r_side {
+    width: 100%;
+    /* height: 102em; */
+    margin-top: 42px;
+    margin-left: 0;
+  }
+}

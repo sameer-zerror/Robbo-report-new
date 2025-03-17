@@ -1,0 +1,443 @@
+/* ///////////////////////////////hero section/////////////////////////// */
+
+.story_hero_hero_container {
+  width: 100%;
+  height: 90vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.story_hero_text_container {
+  width: 100%;
+  height: 83%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.story_hero_title {
+  font-size: 2rem;
+  color: white;
+  width: 75%;
+  line-height: 3rem;
+}
+
+.story_hero_description {
+  font-size: 1rem;
+  color: white;
+  opacity: 0.7;
+  width: 75%;
+}
+
+.story_hero_info_container {
+  width: 100%;
+  height: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  opacity: 0.8;
+  padding: 0 2rem;
+}
+
+.story_hero_info {
+  font-size: 1rem;
+}
+
+.story_hero_image_container {
+  width: 100%;
+  height: 90vh;
+  background-color: gray;
+  position: relative;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .story_hero_title {
+    font-size: 3.5rem;
+  }
+
+  .story_hero_description {
+    font-size: 1.25rem;
+  }
+
+  .story_hero_info {
+    font-size: 1.25rem;
+  }
+
+  .story_hero_info_container {
+    padding: 0 2.5rem;
+  }
+}
+
+/* /////////////////////////////main section/////////////////////////// */
+
+.story_main_classname_container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.story_main_classname_main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .story_main_classname_main {
+    flex-direction: row;
+  }
+}
+
+.story_main_classname_left {
+  width: 100%;
+  padding: 20px 0;
+}
+
+@media (min-width: 768px) {
+  .story_main_classname_left {
+    width: 72%;
+    padding: 40px 0;
+  }
+}
+
+.story_main_classname_text {
+  padding: 20px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .story_main_classname_text {
+    font-size: 18px;
+    padding-left: 40px;
+  }
+}
+
+.story_main_classname_imageWrapper {
+  width: 100%;
+  height: 90vh;
+  background: #ccc;
+  position: relative;
+  margin: 10px 0;
+}
+
+.story_main_classname_divider {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .story_main_classname_divider {
+    display: block;
+    width: 2px;
+    background: rgba(0, 0, 0, 0.46);
+  }
+}
+
+.story_main_classname_right {
+  width: 100%;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .story_main_classname_right {
+    width: 28%;
+    padding: 40px;
+  }
+}
+
+.story_main_classname_card {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.story_main_classname_cardImage {
+  width: 100%;
+  object-fit: cover;
+}
+.story_main_classname_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.story_main_classname_cardText {
+  height: 10%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.story_main_classname_alsoInteresting {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+  border-left: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.story_main_classname_advertisement {
+  margin-top: 20px;
+  height: 90vh;
+  width: 100%;
+  background: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story_main_classname_slider {
+  padding: 10px 20px;
+}
+
+@media (min-width: 768px) {
+  .story_main_classname_slider {
+    padding: 10px 40px;
+  }
+}
+
+.story_main_classname_social {
+  padding: 10px 20px;
+  margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+  .story_main_classname_social {
+    margin-top: 15vh;
+  }
+}
+
+.story_main_classname_footer {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .story_main_classname_footer {
+    display: flex;
+  }
+}
+
+/* ////////////////////////////////// interestin card /////////////////////////// */
+
+.story_interesting_classname_container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.story_interesting_classname_card {
+  width: 100%;
+}
+
+.story_interesting_classname_imageWrapper {
+  width: 100%;
+  height: 25vh;
+}
+
+.story_interesting_classname_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story_interesting_classname_text {
+  width: 100%;
+  min-height: 10vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.story_interesting_classname_heading {
+  font-size: 1.25rem;
+  color: red;
+  font-weight: bold;
+}
+
+.story_interesting_classname_description {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* //////////////////////////////////////////swiper slider/////////////////////////////////////////// */
+
+.story_swiper_classname_container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.story_swiper_classname_swiper {
+  width: 100%;
+  height: 20vh;
+}
+
+@media (min-width: 768px) {
+  .story_swiper_classname_swiper {
+    height: 60vh;
+  }
+}
+
+.story_swiper_classname_slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.story_swiper_classname_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story_swiper_classname_controls {
+  position: relative;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.story_swiper_classname_buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.story_swiper_classname_arrow {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.story_swiper_classname_icon {
+  font-size: 24px;
+  color: black;
+  background-color: white;
+}
+
+.story_swiper_classname_counter {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+/* ///////////////////////////////////social card/////////////////////////////////////// */
+
+.story_social_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.story_social_wrapper {
+  width: 100%;
+  padding: 0 5%;
+}
+
+.story_social_section {
+  width: 100%;
+  min-height: 5vh;
+  padding: 10px 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.46);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .story_social_section {
+    min-height: 10vh;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.story_social_label {
+  width: 100%;
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .story_social_label {
+    width: 15%;
+    font-size: 16px;
+  }
+}
+
+.story_social_buttons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .story_social_buttons {
+    width: 85%;
+  }
+}
+
+.story_social_author {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .story_social_author {
+    width: 85%;
+    font-size: 16px;
+  }
+}
+
+.story_social_bio {
+  margin-top: 10px;
+  text-transform: none;
+}
+
+/* ////////////////////////////////////////border btn /////////////////////////////////////// */
+
+.border_btn {
+  display: inline-block;
+}
+
+.border_btn_button {
+  padding: 4px 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: 2px solid rgba(0, 0, 0, 0.46);
+  background-color: transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.border_btn_button:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+@media (min-width: 768px) {
+  .border_btn_button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
