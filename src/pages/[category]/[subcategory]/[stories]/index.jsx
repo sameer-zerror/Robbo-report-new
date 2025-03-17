@@ -5,25 +5,28 @@ import React from "react";
 const Stories = () => {
   const heroData = {
     title:
-      "Lorem ipsum dolor sit amet elit. Optio ab mollitia illo in repellendus",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit...",
+      "Inside the Windsor, the Private Terminal at London’s Heathrow Airport",
+    description:
+      "Features include eight new VIP suites, BMW chauffeurs, butler service, and food from celebrity chef Jason Atherton.",
     author: "Sunny Kurmi",
     category: "Travel",
     readTime: "8 min read",
     heroImage:
-      "https://images.unsplash.com/photo-1519791883288-dc8bd696e667?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://robbreport.com/wp-content/uploads/2025/02/the-windsor-heathrow.jpg?w=1000",
   };
 
   const dummyData = {
     heroImage:
-      "https://images.unsplash.com/photo-1519791883288-dc8bd696e667?q=80&w=2070&auto=format&fit=crop",
-    paragraph: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. 
-    \n\n
+      "https://robbreport.com/wp-content/uploads/2025/02/the-windsor.jpg?resize=1024,576",
+    paragraph: `Why settle for a seat when you can have a suite? 
+
+London Heathrow’s private terminal, the Windsor, once a well-kept secret among royals and celebrities, has undergone a major renovation unveiling eight lavish lounges and a host of exclusive amenities from British brands. The first phase of the terminal’s three-year refurbishment offers up suites by Oliver Burns Studio, in addition to door-to-plane chauffeur service, a special menu by celebrity chef Jason Atherton, and private security screenings. To get in, you’ll need to be departing or arriving either business or first class on any airline. You’ll also have to pay a one-way entry fee of £3,812 (about $4,795) for up to three guests or £7,624 ($9,648) if you want round-trip access.  . 
+    
     Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. 
-    \n\n
+    
     Praesent et diam eget libero egestas mattis sit amet vitae augue.`,
     sideImage:
-      "https://thenodmag.com/_next/image?url=https%3A%2F%2Fassets.thenodmag.com%2Fwebsite-assets%2Fnike_247_apparel_collection_The_Nod_Mag_62be401e72-tjhrxeawktftmfv-3x4.jpg&w=2048&q=95",
+      "https://m.media-amazon.com/images/I/91IIaz4W2VL._AC_UF1000,1000_QL80_.jpg",
   };
 
   return (

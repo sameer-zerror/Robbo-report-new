@@ -1,6 +1,6 @@
 .nav {
   position: relative;
-  padding: 4rem 3rem;
+  padding: 2rem 3rem;
   background-color: var(--black);
   color: var(--white);
 }
@@ -11,11 +11,17 @@
   font-family: rocky, sans-serif;
   /* margin-left: 15px; */
 }
+.brand img {
+  /* aspect-ratio: 1; */
+  width: 200px;
+  height: 45px;
+}
 .nav-content {
   display: grid;
   /* grid-template-rows: minmax(min-content, 60px); */
   grid-template-columns: 1fr 2.5fr 1fr;
   font-family: sweet-sans-pro, sans-serif;
+  align-items: center;
 }
 .links.nav-items {
   display: flex;

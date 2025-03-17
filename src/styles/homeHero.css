@@ -65,9 +65,9 @@
   z-index: 9;
   top: 0;
   /* padding-bottom: 4.375rem; */
-  /* padding-left: 2.5rem; */
-  /* padding: 0 5rem; */
-  /* padding-right: 2.5rem; */
+  padding-left: 2.5rem;
+  padding: 0 5rem;
+  padding-right: 2.5rem;
   display: flex;
 }
 .heroSliderContentWrapper {

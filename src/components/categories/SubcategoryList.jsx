@@ -13,15 +13,15 @@ const SubcategoryList = () => {
         start: "top 0%",
         end: "bottom 100%",
         scrub: true,
-        markers: true,
+        markers: false,
         onEnter: () => {
           // When you scroll to the top (enter the trigger zone)
-          document.querySelector(".fixed_item").classList.remove("page_bar");
+          document.querySelector(".fixed_item")?.classList?.remove("page_bar");
         },
 
         onEnterBack: () => {
           // When scrolling back towards the top
-          document.querySelector(".fixed_item").classList.add("page_bar");
+          document.querySelector(".fixed_item")?.classList?.add("page_bar");
         },
       },
     });
@@ -57,8 +57,8 @@ const SubcategoryList = () => {
           >
             <i className="full_bg" />
             <div className="tab_content">
-              <span className="f_16">Edition #24</span>
-              <span className="f_40 alt">Nature</span>
+              {/* <span className="f_16">Edition #24</span> */}
+              <span className="f_40 alt">Sub-category 1</span>
             </div>
           </div>
           <div
@@ -69,50 +69,50 @@ const SubcategoryList = () => {
           >
             <i className="full_bg" />
             <div className="tab_content">
-              <span className="f_16">Edition #23</span>
-              <span className="f_40 alt">Doors </span>
+              {/* <span className="f_16">Edition #23</span> */}
+              <span className="f_40 alt">Sub-category 2</span>
             </div>
           </div>
           <div className="tab" data-id={3} aria-hidden="true">
             <i className="full_bg" />
             <div className="tab_content">
-              <span className="f_16">Edition #22</span>
-              <span className="f_40 alt">Threads</span>
+              {/* <span className="f_16">Edition #22</span> */}
+              <span className="f_40 alt">Sub-category 3</span>
             </div>
           </div>
           <div className="tab" data-id={4} aria-hidden="true">
             <i className="full_bg" />
             <div className="tab_content">
-              <span className="f_16">Edition #21</span>
-              <span className="f_40 alt">Spread</span>
+              {/* <span className="f_16">Edition #21</span> */}
+              <span className="f_40 alt">Sub-category 4</span>
             </div>
           </div>
           <div className="tab" data-id={5} aria-hidden="true">
             <i className="full_bg" />
             <div className="tab_content">
-              <span className="f_16">Edition #20</span>
-              <span className="f_40 alt">Sound</span>
+              {/* <span className="f_16">Edition #20</span> */}
+              <span className="f_40 alt">Sub-category 5</span>
             </div>
           </div>
           <div className="tab" data-id={6} aria-hidden="true">
             <i className="full_bg" />
             <div className="tab_content">
-              <span className="f_16">Edition #19</span>
-              <span className="f_40 alt">Re-set</span>
+              {/* <span className="f_16">Edition #19</span> */}
+              <span className="f_40 alt">Sub-category 6</span>
             </div>
           </div>
           <div className="tab" data-id={7} aria-hidden="true">
             <i className="full_bg" />
             <div className="tab_content">
-              <span className="f_16">Edition #19</span>
-              <span className="f_40 alt">Re-set</span>
+              {/* <span className="f_16">Edition #19</span> */}
+              <span className="f_40 alt">Sub-category 7</span>
             </div>
           </div>
           <div className="tab" data-id={8} aria-hidden="true">
             <i className="full_bg" />
             <div className="tab_content">
-              <span className="f_16">Edition #19</span>
-              <span className="f_40 alt">Re-set</span>
+              {/* <span className="f_16">Edition #19</span> */}
+              <span className="f_40 alt">Sub-category 8</span>
             </div>
           </div>
         </div>

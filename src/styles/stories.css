@@ -2,7 +2,7 @@
 
 .story_hero_hero_container {
   width: 100%;
-  height: 90vh;
+  height: 70vh;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -60,15 +60,19 @@
 /* Responsive Design */
 @media (min-width: 768px) {
   .story_hero_title {
-    font-size: 3.5rem;
+    font-size: 4rem;
+    line-height: 1.1;
+    font-family: rocky, sans-serif;
   }
 
   .story_hero_description {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    font-family: sweet-sans-pro, sans-serif;
   }
 
   .story_hero_info {
     font-size: 1.25rem;
+    font-family: sweet-sans-pro, sans-serif;
   }
 
   .story_hero_info_container {
@@ -79,8 +83,8 @@
 /* /////////////////////////////main section/////////////////////////// */
 
 .story_main_classname_container {
-  width: 100%;
-  margin: 0 auto;
+  /* width: 100%;
+  margin: 0 auto; */
 }
 
 .story_main_classname_main {
@@ -103,29 +107,37 @@
 @media (min-width: 768px) {
   .story_main_classname_left {
     width: 72%;
-    padding: 40px 0;
+    padding: 40px 40px 40px 0;
   }
 }
 
 .story_main_classname_text {
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 14px;
   text-align: justify;
+  font-family: rocky, sans-serif;
+  line-height: 1;
+  font-weight: 100;
 }
-
+.story_main_classname_text p {
+  font-weight: 100;
+}
 @media (min-width: 768px) {
   .story_main_classname_text {
-    font-size: 18px;
-    padding-left: 40px;
+    font-size: 27px;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    /* padding-left: 40px; */
   }
 }
 
 .story_main_classname_imageWrapper {
   width: 100%;
-  height: 90vh;
+  /* height: 90vh; */
   background: #ccc;
   position: relative;
-  margin: 10px 0;
+  margin: 3rem 0;
+  aspect-ratio: 16/9;
 }
 
 .story_main_classname_divider {
@@ -135,20 +147,20 @@
 @media (min-width: 768px) {
   .story_main_classname_divider {
     display: block;
-    width: 2px;
-    background: rgba(0, 0, 0, 0.46);
+    width: 1px;
+    background: #a4a4a475;
   }
 }
 
 .story_main_classname_right {
   width: 100%;
-  padding: 20px;
+  padding: 20px 0 20px 20px;
 }
 
 @media (min-width: 768px) {
   .story_main_classname_right {
     width: 28%;
-    padding: 40px;
+    padding: 40px 0 40px 40px;
   }
 }
 
@@ -170,37 +182,59 @@
 .story_main_classname_cardText {
   height: 10%;
   text-align: center;
-  font-size: 14px;
+  font-size: 1.5rem;
   font-weight: 500;
   padding: 10px;
+  font-family: rocky, sans-serif;
 }
 
 .story_main_classname_alsoInteresting {
-  margin-top: 10px;
+  margin-top: 3rem;
   margin-bottom: 20px;
   padding: 10px;
   font-weight: 500;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
-  border-left: 2px solid rgba(0, 0, 0, 0.12);
-}
+  position: relative;
 
+  /* border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+  border-left: 2px solid rgba(0, 0, 0, 0.12); */
+  text-align: center;
+}
+.story_main_classname_alsoInteresting span {
+  background: #fff;
+  padding: 0 10px;
+  font-size: 1.4rem;
+}
+.story_main_classname_alsoInteresting:before {
+  border-top: 0.1px solid #000;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
 .story_main_classname_advertisement {
   margin-top: 20px;
-  height: 90vh;
+  height: 60vh;
   width: 100%;
   background: #e0e0e0;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: sweet-sans-pro, sans-serif;
+  color: gray;
 }
 
 .story_main_classname_slider {
-  padding: 10px 20px;
+  padding: 10px 0px 10px 20px;
 }
 
 @media (min-width: 768px) {
   .story_main_classname_slider {
-    padding: 10px 40px;
+    padding: 10px 0 10px 40px;
   }
 }
 
@@ -211,7 +245,8 @@
 
 @media (min-width: 768px) {
   .story_main_classname_social {
-    margin-top: 15vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
   }
 }
 
@@ -238,7 +273,7 @@
 
 .story_interesting_classname_imageWrapper {
   width: 100%;
-  height: 25vh;
+  /* height: 22vh; */
 }
 
 .story_interesting_classname_image {
@@ -255,18 +290,21 @@
   flex-direction: column;
   justify-content: center;
   gap: 8px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .story_interesting_classname_heading {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: red;
-  font-weight: bold;
+  font-weight: 500;
+  font-family: sweet-sans-pro, sans-serif;
 }
 
 .story_interesting_classname_description {
-  font-size: 1rem;
-  color: #333;
+  font-size: 1.4rem;
+  color: #000;
+  font-family: rocky, sans-serif;
+  line-height: 1.1;
 }
 
 /* //////////////////////////////////////////swiper slider/////////////////////////////////////////// */
@@ -285,7 +323,7 @@
 
 @media (min-width: 768px) {
   .story_swiper_classname_swiper {
-    height: 60vh;
+    height: 44vh;
   }
 }
 
@@ -339,12 +377,13 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .story_social_wrapper {
   width: 100%;
-  padding: 0 5%;
+  /* padding: 0 5%; */
+  font-family: sweet-sans-pro, sans-serif;
 }
 
 .story_social_section {
@@ -399,6 +438,7 @@
   width: 100%;
   text-transform: uppercase;
   font-size: 12px;
+  line-height: 1.1;
 }
 
 @media (min-width: 768px) {
@@ -411,6 +451,7 @@
 .story_social_bio {
   margin-top: 10px;
   text-transform: none;
+  font-size: 1.2rem;
 }
 
 /* ////////////////////////////////////////border btn /////////////////////////////////////// */

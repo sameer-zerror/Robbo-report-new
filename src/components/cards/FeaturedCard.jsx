@@ -6,7 +6,7 @@ const FeaturedCard = ({ imgUrl, title, id, alt, desc }) => {
   return (
     <>
       <div className="featured-image">
-        <Link href="">
+        <Link href="/motoring/sedans/article-1">
           <Image
             width={480}
             height={270}

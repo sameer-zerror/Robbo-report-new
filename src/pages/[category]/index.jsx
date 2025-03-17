@@ -5,7 +5,7 @@ import React from "react";
 const gridCardData = [
   {
     id: 1,
-    title: "Marine",
+    title: "Future Tech",
     imgUrl:
       "https://robbreport.com/wp-content/uploads/2025/03/Khaled_SailGP.jpg?w=480",
     desc: "DJ Khaled Is Now on the U.S. SailGP Team’s Board of Directors",
@@ -14,7 +14,7 @@ const gridCardData = [
   },
   {
     id: 2,
-    title: "Marine",
+    title: "Future Tech",
     imgUrl:
       "https://robbreport.com/wp-content/uploads/2025/03/Johnnie_Walker_Vault.jpg?w=480",
     desc: "DJ Khaled Is Now on the U.S. SailGP Team’s Board of Directors",
@@ -23,7 +23,7 @@ const gridCardData = [
   },
   {
     id: 3,
-    title: "Marine",
+    title: "Future Tech",
     imgUrl:
       "https://robbreport.com/wp-content/uploads/2025/03/2.LeadRobinsonR88use.jpg?w=480",
     desc: "DJ Khaled Is Now on the U.S. SailGP Team’s Board of Directors",
@@ -32,7 +32,7 @@ const gridCardData = [
   },
   {
     id: 4,
-    title: "Marine",
+    title: "Future Tech",
     imgUrl:
       "https://robbreport.com/wp-content/uploads/2025/03/73380-Agave-Lane_Patio.jpg?w=480",
     desc: "DJ Khaled Is Now on the U.S. SailGP Team’s Board of Directors",
@@ -43,7 +43,7 @@ const gridCardData = [
 const gridCardData2 = [
   {
     id: 1,
-    title: "Marine",
+    title: "Future Tech",
     imgUrl:
       "https://robbreport.com/wp-content/uploads/2025/03/Khaled_SailGP.jpg?w=480",
     desc: "DJ Khaled Is Now on the U.S. SailGP Team’s Board of Directors",
@@ -52,7 +52,7 @@ const gridCardData2 = [
   },
   {
     id: 2,
-    title: "Marine",
+    title: "Future Tech",
     imgUrl:
       "https://robbreport.com/wp-content/uploads/2025/03/Johnnie_Walker_Vault.jpg?w=480",
     desc: "DJ Khaled Is Now on the U.S. SailGP Team’s Board of Directors",
@@ -61,7 +61,7 @@ const gridCardData2 = [
   },
   {
     id: 3,
-    title: "Marine",
+    title: "Future Tech",
     imgUrl:
       "https://robbreport.com/wp-content/uploads/2025/03/2.LeadRobinsonR88use.jpg?w=480",
     desc: "DJ Khaled Is Now on the U.S. SailGP Team’s Board of Directors",
@@ -70,7 +70,7 @@ const gridCardData2 = [
   },
   {
     id: 4,
-    title: "Marine",
+    title: "Future Tech",
     imgUrl:
       "https://robbreport.com/wp-content/uploads/2025/03/73380-Agave-Lane_Patio.jpg?w=480",
     desc: "DJ Khaled Is Now on the U.S. SailGP Team’s Board of Directors",
@@ -79,7 +79,7 @@ const gridCardData2 = [
   },
   {
     id: 4,
-    title: "Marine",
+    title: "Future Tech",
     imgUrl:
       "https://robbreport.com/wp-content/uploads/2025/03/73380-Agave-Lane_Patio.jpg?w=480",
     desc: "DJ Khaled Is Now on the U.S. SailGP Team’s Board of Directors",
@@ -88,7 +88,7 @@ const gridCardData2 = [
   },
   {
     id: 4,
-    title: "Marine",
+    title: "Future Tech",
     imgUrl:
       "https://robbreport.com/wp-content/uploads/2025/03/73380-Agave-Lane_Patio.jpg?w=480",
     desc: "DJ Khaled Is Now on the U.S. SailGP Team’s Board of Directors",
@@ -97,7 +97,7 @@ const gridCardData2 = [
   },
   {
     id: 4,
-    title: "Marine",
+    title: "Future Tech",
     imgUrl:
       "https://robbreport.com/wp-content/uploads/2025/03/73380-Agave-Lane_Patio.jpg?w=480",
     desc: "DJ Khaled Is Now on the U.S. SailGP Team’s Board of Directors",
@@ -106,7 +106,7 @@ const gridCardData2 = [
   },
   {
     id: 4,
-    title: "Marine",
+    title: "Future Tech",
     imgUrl:
       "https://robbreport.com/wp-content/uploads/2025/03/73380-Agave-Lane_Patio.jpg?w=480",
     desc: "DJ Khaled Is Now on the U.S. SailGP Team’s Board of Directors",
@@ -127,7 +127,7 @@ const Category = () => {
           className="tab_section lazy-image-sections is-inview animated"
         >
           <CardGridSection
-            title="The Section-1"
+            title="Sub-category 1"
             data={gridCardData}
             sectionId="1"
           />
@@ -139,7 +139,7 @@ const Category = () => {
           className="tab_section lazy-image-sections is-inview animated"
         >
           <CardGridSection
-            title="The Section-2"
+            title="Sub-category 2"
             data={gridCardData2}
             sectionId="2"
           />
@@ -151,7 +151,7 @@ const Category = () => {
           className="tab_section lazy-image-sections is-inview animated"
         >
           <CardGridSection
-            title="The Section-3"
+            title="Sub-category 3"
             data={gridCardData}
             sectionId="3"
           />
@@ -163,7 +163,7 @@ const Category = () => {
           className="tab_section lazy-image-sections is-inview animated"
         >
           <CardGridSection
-            title="The Section-4"
+            title="Sub-category 4"
             data={gridCardData}
             sectionId="4"
           />
@@ -175,7 +175,7 @@ const Category = () => {
           className="tab_section lazy-image-sections is-inview animated"
         >
           <CardGridSection
-            title="The Section-5"
+            title="Sub-category 5"
             data={gridCardData}
             sectionId="1"
           />
@@ -187,7 +187,7 @@ const Category = () => {
           className="tab_section lazy-image-sections is-inview animated"
         >
           <CardGridSection
-            title="The Section-6"
+            title="Sub-category 6"
             data={gridCardData}
             sectionId="1"
           />

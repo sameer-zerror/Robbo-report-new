@@ -1,5 +1,5 @@
 .wrapper_base {
-  padding: 152px 0;
+  padding: 152px 0 175px 0;
   font-size: 1vw;
 }
 .wrapper_base.specialalign {
@@ -27,7 +27,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #f1f1f1;
+  background-color: #fff;
   /* background-color: red; */
   /* opacity: 0.5; */
   height: 100%;
@@ -36,7 +36,7 @@
 }
 @media screen and (max-width: 991px) {
   .wrapper_base {
-    padding: 112px 0px;
+    padding: 112px 0px 120px 0;
   }
   .split_box,
   .split_box:lang(de-de) {
@@ -51,7 +51,7 @@
 }
 @media screen and (max-width: 767px) {
   .wrapper_base {
-    padding: 72px 0px;
+    padding: 72px 0px 80px 0;
   }
   .split_box {
     width: 76%;

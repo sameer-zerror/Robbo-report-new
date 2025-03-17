@@ -17,23 +17,38 @@ import { BsArrowLeft } from "react-icons/bs";
 import Image from "next/image";
 const data = [
   {
+    titleName: "James Harden’s Sneaker-Matching Maserati MC20 in Photos",
+    desc: "The supercar wears a wrap inspired by the latest version of the NBA player’s signature shoe.",
+    imgUrl:
+      "https://robbreport.com/wp-content/uploads/2025/03/hardenmc2003.jpg?w=1000",
+  },
+  {
     titleName:
-      "Watch 'Operation Restoration': New Video Series on Ecosystem Restoration",
+      "How Hill Helicopters Designed a Light Chopper That Looks and Feels Like a Supercar",
+    desc: "With a level of luxury and performance on par with far costlier rotorcraft, the futuristic release steps outside the box.",
+    imgUrl:
+      "https://robbreport.com/wp-content/uploads/2025/02/Hill_HX50_2.jpg?w=1000",
+  },
+  {
+    titleName:
+      "Perini Navi’s New 190-Foot Superyacht Is Basically a 5-Star Spa for the High Seas",
+    desc: "The Race Below is an immersive experience that's travelled the globe encouraging support for better ocean health,",
+    imgUrl:
+      "https://robbreport.com/wp-content/uploads/2025/03/m_yamante.png?w=1000",
+  },
+  {
+    titleName:
+      "Miramonti We Took a Luxe River Cruise Through Asia’s Mekong Delta.",
     desc: "Watch 11th Hour Racing's five-part video series Operation Restoration",
     imgUrl:
-      "https://cdn.prod.website-files.com/66336211b81e8a10a1428f79/6710160a185bbe3f30a2170f_BN_ORCAVeroBeach-2191.jpg",
+      "https://robbreport.com/wp-content/uploads/2025/03/Miramonti_2022-139-by-Markus-Edgar-Ruf-1.jpg?w=1024",
   },
   {
-    titleName: "Shaped by Water",
+    titleName:
+      "The 7 Best Hotels in the Dolomites, From Classic Chalets to Minimalist Masterpieces",
     desc: "From the highest mountains to the darkest depths and every facet in between, the ocean intertwines with our daily lives and the world surrounding us.",
     imgUrl:
-      "https://cdn.prod.website-files.com/66336211b81e8a10a1428f79/667ea9d71cf1de6b8c441b98_shapeby%20water%20main.webp",
-  },
-  {
-    titleName: "The Race Below",
-    desc: "The Race Below is an immersive experience that's travelled the globe encouraging support for better ocean health, that's now been translated into a digital format for you to explore. Brought to life with audio, video clips, interactive maps, 3D underwater life this project will make it impossible to resist to take action",
-    imgUrl:
-      "https://cdn.prod.website-files.com/66336211b81e8a10a1428f79/66f53da8e168c74898c53d78_Tile%20-%20The%20Race%20Below%20-%20Image%20only%20(1).jpg",
+      "https://robbreport.com/wp-content/uploads/2025/03/COMO-MM-23-Pool_Entering-pool_18.jpg?w=1000",
   },
 ];
 const Hero = () => {
@@ -132,23 +147,23 @@ const Hero = () => {
                   />
                   <div className="film-overlay-wrap">
                     <div className="heroSliderContentWrapper">
-                      <div className="containerWrapper">
-                        <div className="video-stories-slider-inner-block">
-                          <div className="special-stories-date-block color-white">
-                            <div>6.25.24</div>
-                            <div>|</div>
-                            <div>Film</div>
-                          </div>
-                          <div className="special-stories-title letter-animation text-color-white">
-                            <h2 className="heading-h2 split-text">
-                              {el.titleName}
-                            </h2>
-                          </div>
-                          <div className="special-stories-summary text-color-white">
-                            <p className="remove-margin-bottom">{el.desc}</p>
-                          </div>
+                      {/* <div className="containerWrapper"> */}
+                      <div className="video-stories-slider-inner-block">
+                        <div className="special-stories-date-block color-white">
+                          <div>6.25.24</div>
+                          <div>|</div>
+                          <div>Film</div>
+                        </div>
+                        <div className="special-stories-title letter-animation text-color-white">
+                          <h2 className="heading-h2 split-text">
+                            {el.titleName}
+                          </h2>
+                        </div>
+                        <div className="special-stories-summary text-color-white">
+                          <p className="remove-margin-bottom">{el.desc}</p>
                         </div>
                       </div>
+                      {/* </div> */}
                     </div>
                   </div>
                 </div>

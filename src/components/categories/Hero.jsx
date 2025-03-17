@@ -29,7 +29,7 @@ const Hero = () => {
       <div data-scroll-container="true">
         <div>
           <div className="page_head_set">
-            <h1 className="editionTitle">Editions</h1>
+            <h1 className="editionTitle">Style</h1>
           </div>
           <div className="page_bar">
             <div className="search_bar flexCntr">

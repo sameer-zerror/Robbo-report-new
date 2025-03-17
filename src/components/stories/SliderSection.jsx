@@ -19,7 +19,7 @@ const SliderSection = ({ images }) => {
     <div className="story_swiper_classname_container">
       <Swiper
         modules={[Navigation, A11y]}
-        spaceBetween={10}
+        spaceBetween={30}
         slidesPerView={2}
         speed={1000}
         onSlideChange={(swiper) => setCurrentSlide(swiper.activeIndex + 1)}

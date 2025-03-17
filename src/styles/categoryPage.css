@@ -18,7 +18,7 @@
 }
 section.tab_section {
   position: relative;
-  padding: 2rem 0;
+  padding: 4rem 0;
   /* height: 100vh; */
 }
 .page_head_set {
@@ -28,7 +28,7 @@ section.tab_section {
   align-items: center;
 }
 .editionTitle {
-  font-size: 10vw;
+  font-size: 8vw;
   line-height: 10vw;
   font-family: rocky, sans-serif;
   font-weight: 600;
@@ -69,6 +69,7 @@ section.tab_section {
   appearance: none;
   color: #fff;
   min-width: 232px;
+  font-size: 1rem;
 }
 .f_lable {
   font-size: 20px;
@@ -131,6 +132,7 @@ section.tab_section {
   /* overflow: hidden; */
   color: #fff;
   background: rgba(0, 0, 0, 0.7);
+  background: #2a2a2a;
   height: 100px;
   overflow-x: scroll;
   /* touch-action: pan-y; */
@@ -156,13 +158,14 @@ section.tab_section {
   top: 0;
   right: 0;
   bottom: 0;
-  background: rgb(255 255 255 / 15%);
+  background: rgba(255, 255, 255, 0.406);
   z-index: 99;
 }
 .full_bg {
   height: 100%;
   width: 0%;
-  background-color: gray;
+  /* background-color: gray; */
+  background-color: #3f3f3f;
   transform-origin: left center;
   position: absolute;
   left: 0;

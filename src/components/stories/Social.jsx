@@ -35,7 +35,7 @@ const Social = ({ socialData, tagsData, authorName, authorBio }) => {
             <p>AUTHOR</p>
           </div>
           <div className="story_social_author">
-            <p>{authorName}</p>
+            {/* <p>{authorName}</p> */}
             <p className="story_social_bio">{authorBio}</p>
           </div>
         </div>

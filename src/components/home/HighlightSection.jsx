@@ -43,26 +43,22 @@ const HighlightSection = () => {
               <div className="l_side_tall">
                 <div className="headline_blog_home">
                   <div className="article_headline">
-                    The best Safaris to remember for a lifetime
+                    9 Luxe Hotel Packages to Sweep Your Squeeze Off Their Feet
                   </div>
                   <div className="b_txt">
-                    A safari is much more than just a vacation — it's an
-                    adventure that takes you deep into the wild, allowing for
-                    unique encounters with wildlife. From the expansive savannas
-                    of Africa to the dense rainforests of Asia, safaris offer
-                    the chance to witness majestic animals in their natural
-                    habitats. In this blog post, Travel Next Level presents the
-                    best safari destinations around the world that will provide
-                    you with unforgettable memories. Book your dream safari
-                    vacation easily through CHECK24 and enjoy the ultimate
-                    nature experience.
+                    Featuring fine jewelry, tropical islands and private jets
+                    these packages put chocolates and roses to shame. Are you
+                    ready to think beyond chocolate and champagne for
+                    Valentine’s Day this year?
                   </div>
                 </div>
                 <Button />
               </div>
               <div className="img_blog r_side">
-                <img
-                  src="https://cdn.prod.website-files.com/67192adf47c16a59cea7d889/671e9ac7ff78b91a83dcc7f6_9.avif"
+                <Image
+                  width={1000}
+                  height={1000}
+                  src="https://robbreport.com/wp-content/uploads/2022/01/Anantara-Kihavah-Valentines-1.jpg?w=1000"
                   loading="lazy"
                   alt=""
                   sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, (max-width: 991px) 48vw, 68vw"

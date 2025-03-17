@@ -1,5 +1,5 @@
 :root {
-  --background: #f1f1f1;
+  --background: #fff;
   --foreground: #171717;
   /*  */
   --red: #ff3535;
@@ -51,12 +51,12 @@ body {
 
 body {
   /* color: var(--foreground); */
-  /* background: var(--background); */
+  background: var(--background);
   /* font-family: Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: var(--mobile-font-size--size-normal);
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   font-weight: 400;
   line-height: 120%;
   /* font-size: 1vw; */
@@ -80,7 +80,7 @@ html.w-mod-touch * {
 }
 .containerWrapper {
   width: 100%;
-  max-width: 80rem;
+  max-width: 70rem;
   margin: 0 auto;
   padding-right: 0.625rem !important;
   padding-left: 0.625rem !important;
@@ -103,7 +103,7 @@ html.w-mod-touch * {
   padding: 16px 32px 16px;
   font-size: 0.9em;
   transition: all 0.45s;
-  font-family: rocky, sans-serif;
+  font-family: sweet-sans-pro, sans-serif;
 }
 .button_base.black {
   background-color: var(--black);
